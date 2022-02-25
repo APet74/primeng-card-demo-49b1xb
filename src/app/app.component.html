@@ -1,0 +1,80 @@
+<div class="grid">
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card
+      [style]="{ width: '360px' }"
+      styleClass="p-card-shadow glowing-border"
+      routerLink="/first-component"
+      routerLinkActive="active"
+    >
+      <ng-template pTemplate="header">
+        <img
+          alt="Card"
+          src="https://www.primefaces.org/primeng/showcase/assets/showcase/images/usercard.png"
+        />
+      </ng-template>
+
+      <ng-template pTemplate="footer">
+        <h1 style="text-align: center;">Angular</h1>
+      </ng-template>
+    </p-card>
+  </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card
+      [style]="{ width: '360px' }"
+      styleClass="p-card-shadow glowing-border"
+      routerLink="/second-component"
+      routerLinkActive="active"
+    >
+      <ng-template pTemplate="header">
+        <img
+          alt="Card"
+          src="https://www.primefaces.org/primeng/showcase/assets/showcase/images/usercard.png"
+        />
+      </ng-template>
+
+      <ng-template pTemplate="footer">
+        <h1 style="text-align: center;">React</h1>
+      </ng-template>
+    </p-card>
+  </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card
+      [style]="{ width: '360px' }"
+      styleClass="p-card-shadow glowing-border"
+      routerLink="/third-component"
+      routerLinkActive="active"
+    >
+      <ng-template pTemplate="header">
+        <img
+          alt="Card"
+          src="https://www.primefaces.org/primeng/showcase/assets/showcase/images/usercard.png"
+        />
+      </ng-template>
+
+      <ng-template pTemplate="footer">
+        <h1 style="text-align: center;">Vue</h1>
+      </ng-template>
+    </p-card>
+  </div>
+  <div class="col-12 md:col-6 lg:col-3">
+    <p-card
+      [style]="{ width: '360px' }"
+      styleClass="p-card-shadow glowing-border"
+      routerLink="/fourth-component"
+      routerLinkActive="active"
+    >
+      <ng-template pTemplate="header">
+        <img
+          alt="Card"
+          src="https://www.primefaces.org/primeng/showcase/assets/showcase/images/usercard.png"
+        />
+      </ng-template>
+
+      <ng-template pTemplate="footer">
+        <h1 style="text-align: center;">Java</h1>
+      </ng-template>
+    </p-card>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
